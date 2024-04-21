@@ -43,7 +43,7 @@
 
 
                     <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-                        <input class="input100" type="text" id="username">
+                        <input class="input100" type="text" id="email">
                         <span class="focus-input100"></span>
                         <span class="label-input100">Email</span>
                     </div>
@@ -129,16 +129,16 @@
     <!--===============================================================================================-->
     <script>
         function validateForm() {
-            var username = document.getElementById("username").value;
+            var email = document.getElementById("email").value;
             var password = document.getElementById("password").value;
 
-            if (username === "" || password === "") {
+            if (email === "" || password === "") {
                 alert("Please enter both Email and password.");
                 return false;
             }
 
-            // Check if the username and password are correct
-            if (username === "boy@gmail.com" && password === "12345") {
+            // Check if the email and password are correct
+            if (email === "boy@gmail.com" && password === "12345") {
                 // Redirect to the next page
                 alert("Login successful" + " Click Okay to Continue ");
                 window.location.href = "math/math.html";
