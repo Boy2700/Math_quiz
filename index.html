@@ -38,12 +38,26 @@
         * {
             justify-content: center;
         }
+        
+        .overlay {
+            position: fixed;
+            /* Position the overlay div fixed to the viewport */
+            top: 0;
+            left: 0;
+            width: 100%;
+            /* Make the overlay div cover the entire viewport */
+            height: 100%;
+            background-color: transparent;
+            /* Make the overlay transparent */
+            pointer-events: none;
+            /* Allow clicks to pass through the overlay */
+        }
     </style>
     <!--===============================================================================================-->
 </head>
 
 <body>
-
+    <div class="overlay"></div>
     <div class="limiter">
         <div class="container-login100">
             <div class="wrap-login100">
@@ -163,6 +177,11 @@
             }
         }
     </script>
+
+</body>
+
+</html> alert("Invalid Email or Password."); return false; // Prevent form submission } }
+</script>
 
 </body>
 
