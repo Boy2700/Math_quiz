@@ -34,7 +34,16 @@ body {
     font-size: 4vh !important;
     color: white !important;
     background-color: rgb(231, 227, 218) !important;
-}
+    background-image: url('./images/twin.jpg');
+    /* Replace 'your-image-url.jpg' with the path to your image */
+    background-size: cover;
+    /* Cover the entire background */
+    background-repeat: no-repeat;
+    /* Prevent background image from repeating */
+    /* Optionally, you can add more background properties like position */
+    /* Example:
+            background-position
+    }
 
 .begin,
 .calculator {
