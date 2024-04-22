@@ -44,14 +44,6 @@
                 box-sizing: border-box;
             }
             
-            body {
-                background-image: url('./images/twin.jpg');
-                /* Replace 'your-image-url.jpg' with the path to your image */
-                background-size: cover;
-                /* Cover the entire background */
-                background-repeat: no-repeat;
-            }
-            
             body,
             html {
                 height: 100%;
